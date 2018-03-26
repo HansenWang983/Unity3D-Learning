@@ -18,9 +18,9 @@
 
 #### 2、下载几个游戏案例，分别总结资源、对象组织的结构（指资源的目录组织结构与游戏对象树的层次结构）
 
-![1](/Users/hansen/Desktop/Assignment 1/image/1.png)
+![1](image/1.png)
 
-![2](/Users/hansen/Desktop/Assignment 1/image/2.png)
+![2](image/2.png)
 
 
 
@@ -90,25 +90,25 @@ public class Example : MonoBehaviour {
 }
 ```
 
-![console](/Users/hansen/Desktop/Assignment 1/image/console.png)
+![console](image/console.png)
 
 
 
 生命周期（）：	
 
-![monobehaviour_flowchart](/Users/hansen/Desktop/Assignment 1/image/monobehaviour_flowchart.svg)![Awake_Start](/Users/hansen/Desktop/Assignment 1/image/Awake_Start.png)
+![monobehaviour_flowchart](image/monobehaviour_flowchart.svg)![Awake_Start](image/Awake_Start.png)
 
-![update](/Users/hansen/Desktop/Assignment 1/image/update.png)
-
-
-
-![monobehaviour](/Users/hansen/Desktop/Assignment 1/image/monobehaviour.png)
-
-![monobehaviour2](/Users/hansen/Desktop/Assignment 1/image/monobehaviour2.png)
+![update](image/update.png)
 
 
 
-![monobehaviour3](/Users/hansen/Desktop/Assignment 1/image/monobehaviour3.png)
+![monobehaviour](image/monobehaviour.png)
+
+![monobehaviour2](image/monobehaviour2.png)
+
+
+
+![monobehaviour3](image/monobehaviour3.png)
 
 
 
@@ -246,7 +246,7 @@ OnGUI() : 绘制GUI时候触发。一般在这个函数里绘制GUI菜单。（G
   - 例如：table 的对象是 GameObject，第一个选择框是 activeSelf 属性。
 
 
-![ch02-homework](/Users/hansen/Desktop/Assignment 1/image/ch02-homework.png)
+![ch02-homework](image/ch02-homework.png)
 
 
 
@@ -278,11 +278,11 @@ table的transform的属性：
 
 
 
-![object](/Users/hansen/Desktop/Assignment 1/image/object.png)
+![object](image/object.png)
 
 
 
-![UML](/Users/hansen/Desktop/Assignment 1/image/UML.png)
+![UML](image/UML.png)
 
 
 
