@@ -35,29 +35,43 @@ public class NewBehaviourScript : MonoBehaviour {
 			}
 		}
 		count = 0;
+		turn = 1;
 	}
 
 	void OnGUI(){
 
 		Debug.Log("OnGui");
 
+
+		GUIStyle Box_Style = new GUIStyle {
+			fontSize = 30,
+			fontStyle = FontStyle.Bold
+		};
+
+
+		GUIStyle Message_Style = new GUIStyle {
+			fontSize = 25,
+			fontStyle = FontStyle.Bold,
+
+		};
+
+		Message_Style.normal.textColor = Color.red;
+					
 		// Make a background box
-		GUI.Box (new Rect (width-25,height-125,350,550),"Tic-Tac-Toe");
+		GUI.Box (new Rect (width+70,height-100,350,550),"Tic-Tac-Toe",Box_Style);
 
 		Player result=Check();
 
-		if (GUI.Button (new Rect (width + 50, height - 75, 100, 50), "RESET"))
+		if (GUI.Button (new Rect (width+100 , height - 60, 100, 50), "RESET"))
 			Reset ();
 
 		if (result == Player.A)
-			GUI.Label (new Rect (width + 200, height - 75, 100, 50), "X win!");
+			GUI.Label (new Rect (width + 225, height - 50, 100, 50), "X win!",Message_Style);
 
-		if(result == Player.B)
-			GUI.Label (new Rect (width + 200, height - 75, 100, 50), "O win!");
-
-		else if(result == Player.C && count==9)
-			GUI.Label (new Rect (width + 200, height - 75, 100, 50), "Withdraw");
-		
+		if (result == Player.B) 
+			GUI.Label (new Rect (width + 225, height - 50, 100, 50), "O win!",Message_Style);
+		else if (result == Player.C && count == 9) 
+			GUI.Label (new Rect (width + 225, height - 50, 100, 50), "Draw",Message_Style);
 
 		for (int x = 0; x < 3; x++) {
 			for (int y = 0; y < 3; y++) {
