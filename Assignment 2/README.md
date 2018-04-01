@@ -549,3 +549,20 @@ public class moon : MonoBehaviour {
 - 整个游戏仅 主摄像机 和 一个 Empty 对象， **其他对象必须代码动态生成！！！** 。 整个游戏不许出现 Find 游戏对象， SendMessage 这类突破程序结构的 通讯耦合 语句。 **违背本条准则，不给分**
 - 请使用课件架构图编程，**不接受非 MVC 结构程序**
 - 注意细节，例如：船未靠岸，牧师与魔鬼上下船运动中，均不能接受用户事件！
+
+![mmvc](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mmvc.png)
+
+Model-View-Controller as the name applies considers three pieces:
+
+- **Model:** it should be responsible for the data of the application domain
+
+- **View:**   it presents the display of the model in the user interface
+
+- **Controller:** it is really the heart of the MVC, the intermediary that ties the Model and the View together, i.e. it takes user input, manipulates the model & causes the view to update
+
+- ![mvc2](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc2.png)
+
+- ​
+
+![mvc3](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc3.jpg)
+
