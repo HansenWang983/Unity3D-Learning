@@ -578,7 +578,7 @@ public class moon : MonoBehaviour {
 
 ### 请将游戏中对象做成预制
 
-![prefabs](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/prefabs.png)
+![prefabs](Assets/prefabs.png)
 
 
 
@@ -586,7 +586,7 @@ public class moon : MonoBehaviour {
 
 ### MVC 结构程序
 
-![mmvc](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mmvc.png)
+![mmvc](Assets/mmvc.png)
 
 Model-View-Controller as the name applies considers three pieces:
 
@@ -598,7 +598,7 @@ Model-View-Controller as the name applies considers three pieces:
 
   ​
 
-  ![mvc2](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc2.png)
+  ![mvc2](Assets/mvc2.png)
 
-![mvc3](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc3.jpg)
+![mvc3](Assets/mvc3.jpg)
 
