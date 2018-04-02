@@ -17,9 +17,11 @@ public class UserGUI : MonoBehaviour {
 		style = new GUIStyle();
 		style.fontSize = 40;
 		style.alignment = TextAnchor.MiddleCenter;
+		style.normal.textColor = Color.red;
 
 		buttonStyle = new GUIStyle("button");
 		buttonStyle.fontSize = 30;
+		buttonStyle.alignment = TextAnchor.MiddleCenter;
 
 
 	}
@@ -51,13 +53,13 @@ public class UserGUI : MonoBehaviour {
 
 		if (status == 1) {
 			GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-85, 100, 50), "Gameover!", style);
-			if (GUI.Button(new Rect(Screen.width/2-70, Screen.height/2, 140, 70), "Restart", buttonStyle)) {
+			if (GUI.Button(new Rect(Screen.width/2-70, Screen.height/2+100, 140, 70), "Restart", buttonStyle)) {
 				status = 0;
 				action.restart ();
 			}
 		} else if(status == 2) {
 			GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-85, 100, 50), "You win!", style);
-			if (GUI.Button(new Rect(Screen.width/2-70, Screen.height/2, 140, 70), "Restart", buttonStyle)) {
+			if (GUI.Button(new Rect(Screen.width/2-70, Screen.height/2+100, 140, 70), "Restart", buttonStyle)) {
 				status = 0;
 				action.restart ();
 			}
@@ -71,10 +73,13 @@ public class UserGUI : MonoBehaviour {
 	}
 		
 	void OnMouseDown() {
-		if (gameObject.name == "boat") {
-			action.moveBoat ();
-		} else {
-			action.characterIsClicked (characterController);
-		}
+		Debug.Log ("OnMouseDown");
+//		if (status != 1 && status != 2) {
+			if (gameObject.name == "boat") {
+				action.moveBoat ();
+			} else {
+				action.characterIsClicked (characterController);
+			}
+//		}
 	}
 }

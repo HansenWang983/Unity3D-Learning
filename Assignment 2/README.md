@@ -550,6 +550,42 @@ public class moon : MonoBehaviour {
 - 请使用课件架构图编程，**不接受非 MVC 结构程序**
 - 注意细节，例如：船未靠岸，牧师与魔鬼上下船运动中，均不能接受用户事件！
 
+
+
+### 列出游戏中提及的事物（Objects）
+
+- 牧师
+- 魔鬼
+- 船
+- 河岸
+- 河水
+
+
+
+### 用表格列出玩家动作表（规则表），注意，动作越少越好
+
+|    动作     |        条件        |
+| :-------: | :--------------: |
+|    开船     |      船在左或右岸      |
+| 右岸下船（开始岸） |     船靠右岸且船有人     |
+| 左岸下船（结束岸） |     船靠左岸且船有人     |
+|  右岸的牧师上船  | 船在右岸，船有空位，右岸有牧师  |
+|  右岸的魔鬼上船  | 船在右岸，船有空位，右岸有魔鬼  |
+|  左岸的牧师上船  | 船在结束岸，船有空位，左岸有牧师 |
+|  左岸的魔鬼上船  | 船在结束岸，船有空位，左岸有魔鬼 |
+
+
+
+### 请将游戏中对象做成预制
+
+![prefabs](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/prefabs.png)
+
+
+
+
+
+### MVC 结构程序
+
 ![mmvc](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mmvc.png)
 
 Model-View-Controller as the name applies considers three pieces:
@@ -560,9 +596,9 @@ Model-View-Controller as the name applies considers three pieces:
 
 - **Controller:** it is really the heart of the MVC, the intermediary that ties the Model and the View together, i.e. it takes user input, manipulates the model & causes the view to update
 
-- ![mvc2](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc2.png)
+  ​
 
-- ​
+  ![mvc2](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc2.png)
 
 ![mvc3](/Users/hansen/Desktop/Unity3D-Learning/Assignment 2/Assets/mvc3.jpg)
 

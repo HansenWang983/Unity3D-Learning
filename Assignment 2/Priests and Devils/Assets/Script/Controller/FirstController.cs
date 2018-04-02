@@ -55,6 +55,8 @@ public class FirstController : MonoBehaviour, ISceneController, UserAction {
 	}
 
 	public void moveBoat() {
+		if (userGUI.status == 1 || userGUI.status == 2)
+			return;
 		if (boat.isEmpty ())
 			return;
 		boat.Move ();
@@ -62,7 +64,8 @@ public class FirstController : MonoBehaviour, ISceneController, UserAction {
 	}
 
 	public void characterIsClicked(CharacterController _characterCtrl) {
-		
+		if (userGUI.status == 1 || userGUI.status == 2)
+			return;
 		if (_characterCtrl.isOnBoat ()) {
 			CoastController whichCoast;
 			if (boat.get_to_or_from () == -1) { // to->-1; from->1
