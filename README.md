@@ -9,8 +9,6 @@
 - image包括素材
 
 
-[CSDN]:(https://blog.csdn.net/tigerbrother123/article/details/79713980)
-
 
 
 ## Assignment 2
@@ -21,5 +19,6 @@
 - Recording.mp4为录制的视频
 - README说明文档，包括简答题
 
-[Github pages]:(https://hansenbeast.github.io/post/2018-03-30-unity3d-lecture-2/)
 
+
+Github pages:<https://hansenbeast.github.io/post/2018-03-30-unity3d-lecture-2/>
