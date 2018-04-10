@@ -52,7 +52,34 @@ mathjax: false
   1. 修改了游戏场景中的Terrain
   2. 下载Assets美化Skybox和为Terrain添加Textures。
   3. 添加树和草的prefabs实现种树种草。
+
+
+![UI](Assets/UI.png)
+
+![UI2](Assets/UI2.png)
+
+![skybox](Assets/skybox.png)
+
+![skybox2](Assets/skybox2.png)
+
+![tree](Assets/tree.png)
+
+
 - 写一个简单的总结，总结游戏对象的使用
+
+1. 游戏对象有很多方法：
+   - 通过GameObject菜单栏中创建 
+   -  通过代码实例化预设
+   - 克隆游戏对象
+   - GameObject.Find()
+
+
+2. 可以添加许多组件，其中Transform为必需组件
+3. 游戏对象 (GameObject) 还具有标记 (Tag)、层 (Layer) 和名称 (Name)。
+4. 在父子对象间传送消息
+5. 为其添加shader渲染，成为一个material
+
+
 
 #### 2、编程实践
 
