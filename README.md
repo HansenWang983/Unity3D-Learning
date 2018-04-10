@@ -20,5 +20,11 @@
 - README说明文档，包括简答题
 
 
-
 Github pages:<https://hansenbeast.github.io/post/2018-03-30-unity3d-lecture-2/>
+
+## Assignment 3
+
+- Asset包括md插图
+- Priest_and_Devil是牧师与魔鬼V2的项目库
+- Recording.mp4为录制的视频
+- README说明文档，包括简答题
