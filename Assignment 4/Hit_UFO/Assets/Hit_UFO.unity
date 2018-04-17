@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 922153036}
   - component: {fileID: 922153034}
   - component: {fileID: 922153037}
+  - component: {fileID: 922153038}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -247,6 +248,14 @@ MonoBehaviour:
   sceneController: {fileID: 0}
   actions: []
   diskNumber: 0
+--- !u!45 &922153038
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 922153029}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: b00195b0ab7814bf88ff60a5472cf855, type: 2}
 --- !u!1 &2061848414
 GameObject:
   m_ObjectHideFlags: 0
