@@ -30,3 +30,11 @@ Github pages:<https://hansenbeast.github.io/post/2018-03-30-unity3d-lecture-2/>
 - README说明文档，包括简答题
 
 Github pages:https://hansenbeast.github.io/post/2018-04-10-unity3d-lecture-3/
+
+## Assignment 4
+
+- Asset包括md插图
+- Hit_UFO是打飞碟游戏的项目库
+- README说明文档，包括简答题
+
+Github pages:https://hansenbeast.github.io/post/2018-04-17-unity3d-lecture-4/
