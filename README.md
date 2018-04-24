@@ -46,7 +46,7 @@ Github pages:https://hansenbeast.github.io/post/2018-04-17-unity3d-lecture-4/
 
 ## Assignment 5
 
-- Asset包括md插图
+- Assets包括md插图
 - Hit_UFO_V2是打飞碟游戏物理版的项目库
 - README说明文档，包括简答题
 - Physics为课堂实验资料
