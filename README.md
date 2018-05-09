@@ -52,3 +52,13 @@ Github pages:https://hansenbeast.github.io/post/2018-04-17-unity3d-lecture-4/
 - Physics为课堂实验资料
 
 Github pages:https://hansenbeast.github.io/post/2018-04-24-unity3d-lecture-5/
+
+
+
+## Assignment 6
+
+- Assets包括md插图
+- Patrolman是自动巡逻兵的项目库
+- README说明文档
+
+Github pages:https://hansenbeast.github.io/post/2018-05-09-unity3d-lecture-6/

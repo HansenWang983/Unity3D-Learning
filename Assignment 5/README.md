@@ -170,7 +170,7 @@ public class AdapterPattern {
 }
 ```
 
-
+爆炸效果：https://blog.csdn.net/jukaiblog/article/details/10343211
 
 ## 同时支持物理运动与运动学（变换）运动的改进版本
 
