@@ -28,7 +28,7 @@
 
 ### 游戏效果图
 
-![Shoot](/Users/hansen/Desktop/Unity3D-Learning/Assignment%206/Assets/Shoot.png)
+![Shoot](Assets/Shoot.png)
 
 ### 游戏视频:
 
