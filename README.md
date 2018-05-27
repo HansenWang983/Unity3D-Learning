@@ -64,3 +64,13 @@ Github pages:https://hansenbeast.github.io/post/2018-04-24-unity3d-lecture-5/
 Github pages:https://hansenbeast.github.io/post/2018-05-09-unity3d-lecture-6/
 
 游戏视频:http://v.youku.com/v_show/id_XMzYwMDEzMDA5Mg==.html?spm=a2h3j.8428770.3416059.1
+
+
+
+## Assignment 7
+
+- Assets包括md插图
+- Halo是粒子光环的项目库
+- README说明文档
+
+Github pages:https://hansenbeast.github.io/post/2018-05-27-unity3d-lecture-7/
