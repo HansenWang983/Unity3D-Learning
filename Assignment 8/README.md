@@ -27,7 +27,13 @@ mathjax: false
 - 分析两种实现的优缺点
 - 给出预制的使用方法
 
-### 效果视频地址：https://pan.baidu.com/s/1XzbEqBXio-K-QhGLLWWPTA
+### 博客地址：
+
+https://hansenbeast.github.io/post/2018-06-04-unity3d-lecture-8/
+
+### 效果视频地址：
+
+https://pan.baidu.com/s/1XzbEqBXio-K-QhGLLWWPTA
 
 **场景HP Bar为UGUI实现，HP Bar2为IMGUI实现。**
 
