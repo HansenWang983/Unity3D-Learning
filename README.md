@@ -74,3 +74,15 @@ Github pages:https://hansenbeast.github.io/post/2018-05-09-unity3d-lecture-6/
 - README说明文档
 
 Github pages:https://hansenbeast.github.io/post/2018-05-27-unity3d-lecture-7/
+
+
+
+## Assignment 8
+
+- Assets包括md插图
+- HP Bar是血条的项目库
+- README说明文档
+
+Github pages:https://hansenbeast.github.io/post/2018-06-04-unity3d-lecture-8/
+
+视频地址：https://pan.baidu.com/s/1XzbEqBXio-K-QhGLLWWPTA
