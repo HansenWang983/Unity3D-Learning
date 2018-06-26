@@ -99,3 +99,24 @@ Github pages:https://hansenbeast.github.io/post/2018-06-19-unity3d-lecture-9/
 
 视频地址：https://pan.baidu.com/s/1--Ql7bwLUCtVjY8m_go9uQ
 
+
+
+## Assignment 9
+
+- Assets包括md插图
+- Priest and Devid AI是牧师与魔鬼AI版的项目库
+- README说明文档
+
+Github pages:https://hansenbeast.github.io/post/2018-06-19-unity3d-lecture-9/
+
+视频地址：https://pan.baidu.com/s/1--Ql7bwLUCtVjY8m_go9uQ
+
+
+
+## Assignment 10
+
+- NetworkGame是多人联网游戏的项目库
+
+Github pages:https://hansenbeast.github.io/post/2018-06-26-unity3d-lecture-10/
+
+视频地址：https://pan.baidu.com/s/1BCIGL95NYnki5WnvRaGWxg
